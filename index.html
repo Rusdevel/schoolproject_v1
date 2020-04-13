@@ -172,26 +172,19 @@ let questions = [flat_12, flat_103, flat_105, flat_107, flat_109,
                  flat_76, flat_523, flat_525, flat_527, flat_529];
     
   
-                 function otvet() {
-       let input  =  document.getElementById('chislo').value;
-       
-       if(input == 20) {
-         	
-        document.location.href = "pages/28.html";
-       alert('верно');
-    } else {
-        document.location.href = "pages/103.html"; 
-        alert('неверно');
-    }
-    }
-    <Script>let Button = document.querySelector ('button');
+                 
+    
+    let Button = document.querySelector ('button');
     console.log(Button);
     Button.onclick = function() {
-    let answer = prompt('Ваш ответ', '');
-    if(answer === '44'){
-        document.location.href = "22.html";
-    } else {
-        document.location.href = "103.htmll"; 
+    let Totalanswer = prompt('Ваш ответ', '');
+    if(Totalanswer == questions[0].answer){
+        document.location.href = "pages/28.html";
+    } else if (Totalanswer == null) {
+        alert('Вы не ввели ответ!');
+    } 
+    else {
+        document.location.href = "pages/103.html"; 
     }
     }
     </Script>

@@ -28,16 +28,7 @@
   
     
     
-    <form>
-      <div class="form-group">
-        
-        <input type="value" class="form-control" id="chislo" value="">
-        
-      </div>
-      
-      
-      <button onclick="otvet()" type="submit" class="button subscription-button">Ваш ответ</button>
-    </form>
+  <button>Введи свой ответ</button>
   </main>
     
     
@@ -175,15 +166,17 @@ let questions = [flat_12, flat_103, flat_105, flat_107, flat_109,
                  flat_76, flat_523, flat_525, flat_527, flat_529];
     
   
-                 function otvet() {
-       let input  =  document.getElementById('chislo').value;
-       
-       if(input == questions[8].answer) {
+                 let Button = document.querySelector ('button');
+    console.log(Button);
+    Button.onclick = function() {
+    let Totalanswer = prompt('Ваш ответ', '');
+    if(Totalanswer == questions[8].answer){
         document.location.href = "44.html";
-        alert('верно');
-    } else {
+    } else if (Totalanswer == null) {
+        alert('Вы не ввели ответ!');
+    } 
+    else {
         document.location.href = "214.html"; 
-        alert('неверно');
     }
     }
     </Script>
