@@ -1,0 +1,72 @@
+.dark-theme  {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 32px;
+    font-size: 24px;
+
+    color: rgb(248, 246, 246);
+    background: #111010d2;
+}
+.title-page {
+    text-align: center;
+}
+h2 {
+    text-align: center;  
+}
+
+.prolog {
+font-size: 24px;
+    border: #000000d2 solid ; /* параметры рамки (цвет, сплошная)*/
+    background: rgb(23, 24, 22); /* фон */
+    margin-left: 1%; /* величину отступа от левого края элемента */
+    margin-right: 1%; /*величину отступа от правого края элемента */
+    text-align: center; /*горизонтальное выравнивание текста*/   
+}
+
+section {
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */   
+    border-radius: 10px; /*округление рамки */
+    background: rgb(23, 24, 22); /* фон */
+    padding: 2%;
+}
+
+button {
+    display: flex;
+    font-size: 28px;
+    color: ivory;
+    border: #000000d2 solid ; /* параметры рамки (цвет, сплошная)*/
+    background: rgb(105, 4, 4); /* фон */
+    margin-top: 3%;
+    margin-left: 55%; /* величину отступа от левого края элемента */
+    margin-right: 25%; /*величину отступа от правого края элемента */
+    text-align: center; /*горизонтальное выравнивание текста*/   
+    border-radius: 10px; /*округление рамки */
+    padding: 1% ; 
+    width: auto;  
+}
+
+.form-group {
+    display: flex;
+    float: left;
+    margin-left: 30%;
+    font-size: 28px;
+    color: darkblue;
+    border: #000000d2 solid ; /* параметры рамки (цвет, сплошная)*/
+    background: rgb(105, 4, 4); /* фон */
+    margin-top: 0.2%;
+    text-align: center; /*горизонтальное выравнивание текста*/   
+    border-radius: 10px; /*округление рамки */
+    padding: 0.8%;
+    
+}
+
+.form-control {
+    font-size: 24px;
+    color:ivory;
+    text-align: center;
+}
+
+input {
+    background:  #111010d2;
+    border: #000000d2 solid ;
+    border-radius: 10px;
+}
