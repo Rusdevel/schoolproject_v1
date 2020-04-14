@@ -70,3 +70,14 @@ input {
     border: #000000d2 solid ;
     border-radius: 10px;
 }
+
+ .obtekanie {
+        text-align: center;
+        
+        width: auto;
+        
+       }
+       img {
+        box-shadow: 0 0 10px rgba(3, 3, 3, 3); /* Параметры тени */
+        width: auto;
+       }
