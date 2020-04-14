@@ -36,12 +36,12 @@ button {
     border: #000000d2 solid ; /* параметры рамки (цвет, сплошная)*/
     background: rgb(105, 4, 4); /* фон */
     margin-top: 3%;
-    margin-left: 38%; /* величину отступа от левого края элемента */
-    margin-right: 27%; /*величину отступа от правого края элемента */
+    margin-left: 40%; /* величину отступа от левого края элемента */
+    margin-right: 30%; /*величину отступа от правого края элемента */
     text-align: center; /*горизонтальное выравнивание текста*/   
     border-radius: 10px; /*округление рамки */
     padding: 1% ; 
-    width: auto;  
+      
 }
 
 .form-group {
@@ -76,3 +76,14 @@ p {
 a {
    color: rgb(105, 1, 1); 
 }
+
+.obtekanie {
+        text-align: center;
+        
+        width: auto;
+        
+       }
+       img {
+        box-shadow: 0 0 10px rgba(3, 3, 3, 3); /* Параметры тени */
+        width: auto;
+       }
